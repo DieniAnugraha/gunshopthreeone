@@ -53,6 +53,34 @@ const GUNS = [
     description:
       'The other pump gun. Twin action bars, a simple safety on the tang, and a price that leaves money for ammunition.',
   },
+  // --- 3 SENJATA BARU TAMBAHAN ---
+  {
+    name: 'MP5',
+    type: 'Submachine Gun',
+    caliber: '9mm',
+    price: 999,
+    image: '/guns/pistol1.svg', // Gambar baru 1
+    description:
+      'The gold standard of submachine guns. Roller-delayed blowback, unmatched handling, and trusted by tactical units worldwide.',
+  },
+  {
+    name: 'Barrett M82',
+    type: 'Rifle',
+    caliber: '.50 BMG',
+    price: 8999,
+    image: '/guns/pistol2.svg', // Gambar baru 2
+    description:
+      'Anti-materiel precision rifle. Delivers devastating long-range kinetic energy with semi-automatic fire capability.',
+  },
+  {
+    name: 'Uzi',
+    type: 'Submachine Gun',
+    caliber: '9mm',
+    price: 750,
+    image: '/guns/pistol3.svg', // Gambar baru 3
+    description:
+      'Compact open-bolt submachine gun. Famous for its high rate of fire in a small, easily concealable package.',
+  },
 ]
 
 export default GUNS
